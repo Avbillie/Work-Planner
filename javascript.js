@@ -41,7 +41,7 @@ function displayTime() {
     if (currentTime >= "12:00" && currentTime < "17:00") {
         $("#amPm").text('"Good Afternoon."');
         $(".bodyBg").css({
-            "background-image": "url('C:/Users/antho/Desktop/GW_Coding_BootCamp/Module-5/Work-Planner/Assets/afternoon.jpg')",
+            "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/afternoon.jpg?raw=true')",
             "background-position": "center right",
             "height": "100%",
             "width": "100%",
@@ -53,7 +53,7 @@ function displayTime() {
     if (currentTime >= "17:00" && currentTime < "20:00") {
         $("#amPm").text('"Good Evening."');
         $(".bodyBg").css({
-            "background-image": "url('C:/Users/antho/Desktop/GW_Coding_BootCamp/Module-5/Work-Planner/Assets/evening.jpg')",
+            "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/evening.jpg?raw=true')",
             "background-position": "bottom",
             "height": "100%",
             "width": "100%",
