@@ -30,9 +30,9 @@ THEN the saved events persist
 
 The following link demonstrates the application functionality:
 
-Assets\workDayScheduler.jpg
-
 ![Work Scheduler](Assets/workDayScheduler.jpg)
+
+https://avbillie.github.io/Work-Planner/
 
 ## Review
 
