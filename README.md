@@ -28,9 +28,11 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following link leads to the application:
+The following link demonstrates the application functionality:
 
-https://avbillie.github.io/Work-Planner/
+Assets\workDayScheduler.jpg
+
+![Work Scheduler](Assets\workDayScheduler.jpg)
 
 ## Review
 
