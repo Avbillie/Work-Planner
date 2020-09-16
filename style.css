@@ -26,7 +26,7 @@ header{
 }
 #header-container{
   position: fixed;
-  background-image: url("C:/Users/antho/Desktop/GW_Coding_BootCamp/Module-5/Work-Planner/Assets/cool-background.png");
+  background-image: url("https://github.com/Avbillie/Work-Planner/blob/master/Assets/cool-background.png?raw=true");
   background-position: cover;
   overflow: hidden;
   top: 0;
@@ -97,6 +97,7 @@ header{
 
 #amPm{
   margin: 25rem 0;
+  font-size: 8rem;
 }
 .time p{
   font-weight: bold!important;

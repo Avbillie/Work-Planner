@@ -27,24 +27,23 @@ function displayTime() {
 
 
     if (currentTime < "12:00" && currentTime > "00:00") {
-        $("#amPm").text("Good Morning");
+        $("#amPm").text('"Good Morning!"');
         $("body").css("background-color", "whitesmoke")
         $(".bodyBg").css({
-            "background-image" : "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/morning.jpg')",
+            "background-image" : "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/morning.jpg?raw=true')",
             "background-position" : "bottom",
             "height": "100%",
             "width": "100%",
             "background-repeat" : "no-repeat",
-            "color": " #a0a0a0;",
+            "color": "white",
             "text-shadow": "4px 4px 4px black",
-            "font-size": "17rem"
         })
     }
     if (currentTime >= "12:00" && currentTime < "00:00") {
-        $("#amPm").text("Good Night.");
+        $("#amPm").text('"Good Night."');
         $("body").css("background-color", "midnightblue")
         $(".bodyBg").css({
-            "background-image" : "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/night.jpg')",
+            "background-image" : "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/night.jpg?raw=true')",
             "background-position" : "center",
             "background-repeat" : "no-repeat",
             "height": "100%",
