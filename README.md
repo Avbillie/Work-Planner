@@ -32,7 +32,7 @@ The following link demonstrates the application functionality:
 
 Assets\workDayScheduler.jpg
 
-![Work Scheduler](Assets\workDayScheduler.jpg)
+![Work Scheduler](Assets/workDayScheduler.jpg)
 
 ## Review
 
