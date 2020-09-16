@@ -30,7 +30,7 @@ function displayTime() {
         $("#amPm").text("Good Morning");
         $("body").css("background-color", "whitesmoke")
         $(".bodyBg").css({
-            "background-image" : "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/morning.jpg')",
+            "background-image" : "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/morning.jpg?raw=true')",
             "background-position" : "bottom",
             "height": "100%",
             "width": "100%",
@@ -44,7 +44,7 @@ function displayTime() {
         $("#amPm").text("Good Night.");
         $("body").css("background-color", "midnightblue")
         $(".bodyBg").css({
-            "background-image" : "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/night.jpg')",
+            "background-image" : "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/night.jpg?raw=true')",
             "background-position" : "center",
             "background-repeat" : "no-repeat",
             "height": "100%",
