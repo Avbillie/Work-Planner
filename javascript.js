@@ -26,30 +26,57 @@ function displayTime() {
     var time = startClock();
 
 
-    if (currentTime < "12:00" && currentTime > "00:00") {
+    if (currentTime >= "00:00" && currentTime < "12:00") {
         $("#amPm").text('"Good Morning!"');
-        $("body").css("background-color", "whitesmoke")
         $(".bodyBg").css({
-            "background-image" : "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/morning.jpg?raw=true')",
-            "background-position" : "bottom",
+            "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/morning.jpg?raw=true')",
+            "background-position": "bottom",
             "height": "100%",
             "width": "100%",
-            "background-repeat" : "no-repeat",
+            "background-repeat": "no-repeat",
             "color": "white",
             "text-shadow": "4px 4px 4px black",
         })
     }
-    if (currentTime >= "12:00" && currentTime < "00:00") {
-        $("#amPm").text('"Good Night."');
-        $("body").css("background-color", "midnightblue")
+    if (currentTime >= "12:00" && currentTime < "17:00") {
+        $("#amPm").text('"Good Afternoon."');
         $(".bodyBg").css({
-            "background-image" : "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/night.jpg?raw=true')",
-            "background-position" : "center",
-            "background-repeat" : "no-repeat",
+            "background-image": "url('C:/Users/antho/Desktop/GW_Coding_BootCamp/Module-5/Work-Planner/Assets/afternoon.jpg')",
+            "background-position": "center right",
             "height": "100%",
             "width": "100%",
+            "background-repeat": "no-repeat",
+            "color": "white",
+            "text-shadow": "4px 4px 4px black",
+        })
+    }
+    if (currentTime >= "17:00" && currentTime < "20:00") {
+        $("#amPm").text('"Good Evening."');
+        $(".bodyBg").css({
+            "background-image": "url('C:/Users/antho/Desktop/GW_Coding_BootCamp/Module-5/Work-Planner/Assets/evening.jpg')",
+            "background-position": "bottom",
+            "height": "100%",
+            "width": "100%",
+            "background-repeat": "no-repeat",
+            "color": "white",
+            "text-shadow": "4px 4px 4px black",
+        })
+        $(".time p").css({
+            "color": "orangered"
+        })
+    }
+    
+    if (currentTime >= "20:00" && currentTime < "00:00") {
+        $("#amPm").text('"Good Night."');
+        $(".bodyBg").css({
+            "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/night.jpg?raw=true')",
+            "background-position": "bottom",
+            "background-repeat": "no-repeat",
             "color": "white",
             "text-shadow": "5px 5px 5px black",
+        })
+        $(".time p").css({
+            "color": "midnightblue"
         })
     }
     if (time != currentTime) {
