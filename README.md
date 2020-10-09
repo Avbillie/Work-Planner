@@ -1,4 +1,4 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
 ## User Story
 
@@ -34,13 +34,4 @@ The following link demonstrates the application functionality:
 
 https://avbillie.github.io/Work-Planner/
 
-## Review
 
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
