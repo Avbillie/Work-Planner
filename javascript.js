@@ -66,12 +66,12 @@ function displayTime() {
         })
     }
     
-    if (currentTime >= "20:00" && currentTime < "00:00") {
+    if (currentTime >= "20:00" && currentTime != "00:00") {
         $("#amPm").text('"Good Night."');
         $(".bodyBg").css({
             "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/night.jpg?raw=true')",
-            "background-position": "bottom",
             "background-repeat": "no-repeat",
+            "background-size": "100%",
             "color": "white",
             "text-shadow": "5px 5px 5px black",
         })
