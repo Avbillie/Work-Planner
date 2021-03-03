@@ -30,7 +30,6 @@ function displayTime() {
         $("#amPm").text('"Good Morning!"');
         $(".bodyBg").css({
             "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/morning.jpg?raw=true')",
-            "background-position": "bottom",
             "background-size": "100%",
             "height": "100%",
             "background-repeat": "no-repeat",
@@ -42,7 +41,6 @@ function displayTime() {
         $("#amPm").text('"Good Afternoon."');
         $(".bodyBg").css({
             "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/afternoon.jpg?raw=true')",
-            "background-position": "center right",
             "background-size": "100%",
             "height": "100%",
             "background-repeat": "no-repeat",
@@ -54,7 +52,6 @@ function displayTime() {
         $("#amPm").text('"Good Evening."');
         $(".bodyBg").css({
             "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/evening.jpg?raw=true')",
-            "background-position": "bottom",
             "background-size": "100%",
             "height": "100%",
             "background-repeat": "no-repeat",
