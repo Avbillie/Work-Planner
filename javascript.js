@@ -31,7 +31,7 @@ function displayTime() {
         $(".bodyBg").css({
             "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/morning.jpg?raw=true')",
             "background-size": "100%",
-            "height": "100%",
+            "background-position": "bottom",
             "background-repeat": "no-repeat",
             "color": "white",
             "text-shadow": "4px 4px 4px black",
@@ -42,7 +42,7 @@ function displayTime() {
         $(".bodyBg").css({
             "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/afternoon.jpg?raw=true')",
             "background-size": "100%",
-            "height": "100%",
+            "background-position": "center
             "background-repeat": "no-repeat",
             "color": "white",
             "text-shadow": "4px 4px 4px black",
@@ -53,7 +53,7 @@ function displayTime() {
         $(".bodyBg").css({
             "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/evening.jpg?raw=true')",
             "background-size": "100%",
-            "height": "100%",
+            "background-position": "bottom",
             "background-repeat": "no-repeat",
             "color": "white",
             "text-shadow": "4px 4px 4px black",
@@ -68,7 +68,7 @@ function displayTime() {
         $(".bodyBg").css({
             "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/night.jpg?raw=true')",
             "background-repeat": "no-repeat",
-            "height": "100%",
+            "background-position": "bottom",
             "background-size": "100%",
             "color": "white",
             "text-shadow": "5px 5px 5px black",
