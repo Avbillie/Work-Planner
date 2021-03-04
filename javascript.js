@@ -42,7 +42,7 @@ function displayTime() {
         $(".bodyBg").css({
             "background-image": "url('https://github.com/Avbillie/Work-Planner/blob/master/Assets/afternoon.jpg?raw=true')",
             "background-size": "100%",
-            "background-position": "center
+            "background-position": "center",
             "background-repeat": "no-repeat",
             "color": "white",
             "text-shadow": "4px 4px 4px black",
